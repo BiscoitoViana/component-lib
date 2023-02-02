@@ -1,0 +1,27 @@
+.button-group {
+  display: flex;
+  column-gap: 0.75rem;
+  width: 100%;
+}
+
+.button-group--vertical {
+  flex-direction: column;
+  row-gap: 0.75rem;
+  width: fit-content;
+}
+
+.button-group--align-start {
+  justify-content: flex-start;
+}
+
+.button-group--align-center {
+  justify-content: center;
+}
+
+.button-group--align-end {
+  justify-content: flex-end;
+}
+
+.button-group--align-between {
+  justify-content: space-between;
+}

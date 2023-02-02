@@ -1,0 +1,56 @@
+.button {
+  border: none;
+  appearance: none;
+  padding: 0 1.5rem;
+  border-radius: 0.25rem;
+
+  color: #2F3C43;
+  background-color: #D0DBDD;
+
+  cursor: pointer;
+
+  transition: background 0.2s ease-in-out;
+
+  font-family: sans-serif;
+}
+
+.button:hover {
+  background-color: #B5C8CB;
+}
+
+.button:active {
+  background-color: #99B5B9;
+}
+
+.button--sm {
+  font-size: 0.75rem;
+  height: 2.25rem;
+}
+
+.button--md {
+  font-size: 0.875rem;
+  height: 2.625rem;
+}
+
+.button--lg {
+  font-size: 1rem;
+  height: 3rem;
+}
+
+.button--primary {
+  color: #FFFFFF;
+  background-color: #45C4BA;
+}
+
+.button--primary:hover {
+  background-color: #2A9F95;
+}
+
+.button--primary:active {
+  background-color: #1B7B72;
+}
+
+.button:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
